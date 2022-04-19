@@ -1,7 +1,7 @@
 <style lang="scss">
 .root {
   >.title {
-    font-size: 40px;
+    font-size: 120px;
     color: pink;
   }
 }

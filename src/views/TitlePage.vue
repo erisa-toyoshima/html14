@@ -13,7 +13,7 @@ export default {
   },
   setup (props, context) {
     return {
-      num: 10
+      num: 30
     }
   }
 }
