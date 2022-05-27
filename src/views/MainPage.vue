@@ -1,7 +1,7 @@
 <style lang="scss">
 .root {
   >.title {
-    font-size: 120px;
+    font-size: 40px;
     color: pink;
   }
 }
@@ -12,5 +12,22 @@
     <div class="title">
       メインページ
     </div>
+    <ButtonA></ButtonA>
   </div>
 </template>
+
+<script>
+
+import ButtonA from '../components/ButtonA.vue'
+
+export default {
+  name: 'Title',
+  components: {
+    ButtonA
+  },
+  setup (props, context) {
+    return {
+    }
+  }
+}
+</script>
